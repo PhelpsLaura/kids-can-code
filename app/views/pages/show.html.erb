@@ -8,7 +8,7 @@
 
 <div class="row">
   <div class="col s4">
-    <div class="card-panel teal">
+    <div class="card-panel hoverable">
           <span class="white-text">.
           </span>
     </div>
@@ -21,9 +21,16 @@
               var editor = ace.edit("editor");
               editor.setTheme("ace/theme/twilight");
               editor.session.setMode("ace/mode/html");
+              editor.getSession().on('change', function(e) {
+                  $("#rendered-content").html(editor.getValue());
+              });
           </script>
   </div>
   <div class="col s2">
+    <div class="card-panel hoverable">
+      <div id="rendered-content">
 
+      </div>
+    </div>
   </div>
 </div>
