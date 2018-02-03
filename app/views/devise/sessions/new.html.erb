@@ -1,12 +1,12 @@
 <h2>Log in</h2>
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
-    <%= f.label "What is your Mom/Dad 's email?", :class =>"center-align" %><br />
+    <%= f.label "What is your Mom/Dad 's email?" %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
   <div class="field">
-    <%= f.label "Now enter your password here!", :class =>"center-align" %><br />
+    <%= f.label "Now enter your password here!" %><br />
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
 
@@ -18,7 +18,7 @@
   <% end -%>
 
   <div class="actions">
-    <%= f.submit "Log in", :class =>"center-align" %>
+    <%= f.submit "Log in" %>
   </div>
 <% end %>
 
