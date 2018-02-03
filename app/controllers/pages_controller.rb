@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def show
+  def lesson_space
 
   end
 

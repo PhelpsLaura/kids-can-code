@@ -42,6 +42,9 @@ gem 'ace-rails-ap'
 # Use Devise for User Authentication
 gem 'devise'
 
+# Heroku needs this?
+gem 'rails_12factor', group: :production
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

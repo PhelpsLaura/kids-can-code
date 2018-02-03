@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>KidsCanCode</title>
+    <title><%= @title %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,9 +9,7 @@
   </head>
 
   <body>
-    <nav>
-
-    </nav>
+    <%= render 'layouts/navigation' %>
     <%= yield %>
   </body>
 </html>
