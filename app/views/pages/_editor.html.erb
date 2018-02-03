@@ -6,6 +6,7 @@
             editor.setTheme("ace/theme/twilight");
             editor.session.setMode("ace/mode/html");
             editor.setValue("<h1>HTML is fun!</h1>");
+            editor.getSession().setUseWrapMode(true);
             editor.getSession().on('change', function(e) {
                 $("#rendered-content").html(editor.getValue());
             });

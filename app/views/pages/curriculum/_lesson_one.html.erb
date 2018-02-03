@@ -1,2 +1,10 @@
 <h1>Lesson one!</h1>
 (under construction)
+
+<button class="btn teal" id="next">Got it!</button>
+
+<script>
+  $("#next").onclick(function(){
+    $("#curriculum-content").html("<%= render 'pages/curriculum/lesson_one' %>");
+  });
+</script>
