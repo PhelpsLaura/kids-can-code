@@ -24,6 +24,7 @@ rake db:create
 
 rake db:migrate
 ```
+**If you get error messages trying to run the rake commands, it's probably Postgres.** Follow [this tutorial](https://www.youtube.com/watch?v=e1MwsT5FJRQ), starting at minute 7:00 (everything before is just downloading, it's ok if you didn't download it the way he does) (This is for Windows, if you're not on Windows there should be a tutorial like this for mac but I don't know where to find it) I'm pretty sure once you've done this you'll be able to make the databases.
 
 6. To get this running from your local machine, run the command
 
