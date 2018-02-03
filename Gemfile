@@ -30,6 +30,18 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use jQuery for Materialize
+gem 'jquery-rails'
+
+# Use Materialize Sass for CSS ease
+gem 'materialize-sass'
+
+# Use Ace-Rails for coding environment
+gem 'ace-rails-ap'
+
+# Use Devise for User Authentication
+gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
