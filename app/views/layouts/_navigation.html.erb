@@ -1,4 +1,4 @@
-<nav>
+<nav class="purple darken-3">
   <% if user_signed_in? %>
     hi
   <%else%>
@@ -8,5 +8,4 @@
 
   <%= link_to "Sandbox Mode!", sandbox_path, :class => "left" %>
   <%= link_to "Lesson Mode!", lesson_space_path, :class => "left"%>
-
 </nav>
