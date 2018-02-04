@@ -1,0 +1,26 @@
+<ul class="collapsible" data-collapsible="expandable">
+  <li>
+    <div class="collapsible-header"><b>Lesson 1 : Hello HTML<b></div>
+    <div class="collapsible-body">
+      <%= render 'pages/curriculum/lesson_one' %>
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header"><b>Lesson 2: Getting Started<b></div>
+    <div class="collapsible-body">
+      <%= render 'pages/curriculum/lesson_two' %>
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header"><b>Lesson 3: Adding Headers and Attributes<b></div>
+    <div class="collapsible-body">
+      <%= render 'pages/curriculum/lesson_three' %>
+    </div>
+  </li>
+</ul>
+
+<script>
+$(document).ready(function(){
+   $('.collapsible').collapsible();
+ });
+</script>
