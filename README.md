@@ -37,3 +37,7 @@ and then open localhost:3000 in your browser.
 7. It's a bit long, but there's a pretty good introduction to [Ruby on Rails](https://www.youtube.com/watch?v=pPy0GQJLZUM) you can check out if you want -- it's a bit long but it does a good job of explaining everything. You can skip around if it's easier.
 
 8. Good example of a place that does what we're trying to do (except aimed at adults) [here](https://www.freecodecamp.org/)
+
+### Check it out!
+
+Deployed [here](https://can-you-code.herokuapp.com) via Heroku. (Note: this project is not maintained.)
